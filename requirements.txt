@@ -1,0 +1,7 @@
+# Runtime dependencies (engine + backend). Target: Python 3.11+ (Raspberry Pi OS Bookworm ships 3.11)
+fastapi>=0.115
+uvicorn[standard]>=0.30
+
+# Added in later steps:
+# pymodbus      - Modbus TCP driver
+# bacpypes3     - BACnet/IP and MS/TP driver
